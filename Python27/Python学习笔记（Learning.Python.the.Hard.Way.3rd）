@@ -1,0 +1,59 @@
+ex12:the difference between raw_input() and input(): the former get string from system general input, while
+	the latter can get statement and calculate it like (4+4) P.S. the round brackets is a must 
+
+ex13:from sys import argv #这是用来引入给脚本传递参数变量（argument variable）
+
+ex16:文件读写方法：close——关闭文件 read——读取文件内容，可以把结果赋给一个变量 readline——读取文本文件中的一行
+	truncate——清空文件 write（stuff）——将stuff写入文件
+	open("","w")在打开文件时便会自动清空文件内容，且默认模式是“r”模式
+
+ex17:exists()将文件名字符串作为参数，如果文件存在的话，它将返回True；否则将返回False。引入方法 from os.path import exsits
+
+ex20:seek(0)——处理的对象是字节，会转到文件的0byte的位置  readline()——扫描文件的每一个字节，直到找到一个\n为止然后停止读取文件，并
+	且返回此前的文件内容。文件会记录每次调用readline()后的读取位置，这样在下次被调用时可以读取接下来的一行了 print——在print语句结
+	尾加一个逗号(,)，这样print就不会把自己的\n打印出来
+
+ex23:网站：bitbucket.org
+		   launchpad.net
+		   sourceforge.net
+		   freecode.com
+
+ex25:import ex25在Python命令行模式下可以直接调用ex25中函数
+
+ex26:import ex25和from ex25 import *的区别:
+	# 如果你想要直接输入argv变量到你的程序中而每次使用它时又不想打sys，则可使用：from sys import argv
+	# 一般说来，应该避免使用from..import而使用import语句，因为这样可以使你的程序更加易读，也可以避免名称的冲突
+
+ex30:if..elif..else为Python的条件判断结构
+
+ex31:判断一个数处于某个值域中：
+	# 1 < x < 10
+	# x in rang(1,10)
+
+ex32:range(start, stop)= [start, start+1, ..., stop-1]
+
+ex34:序数(ordinal number)和基数(cardinal number)的区别：前者从1开始计数，后者从0开始计数。
+
+ex35:exit()函数是sys模块中的函数，exit(0)是指正常退出，而exit(1)或者exit(100)是指带错误退出
+
+ex36:if语句规则：每一条if语句必须包含一个else，如果这个else永远都不应该被执行，因为它本身没有意义的话，那么必须在else语句后面使用
+	一个叫做die的函数，让它打印错误信息。
+
+ex37:关键字：and from not while elif or else if break import print in continue is return def for
+		del
+		global
+		with..as..
+		assert
+		pass
+		yield
+		except
+		class
+		exec
+		raise
+		try..finally..
+		lambda
+	数据类型：True False None strings numbers floats lists
+	字符串转义序列：\\ \' \" \a \b \f \n \r \t \v
+	字符串格式化：%d %i %o %u %x %X %e %E %f %F %g %G %r %s %%
+	操作符：+ - * ** / // % < > <= >= == != <> () [] {} @ , : . = ; += -= *= /= //= %= **=
+
