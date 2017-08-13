@@ -60,6 +60,11 @@ ex37:关键字：and from not while elif or else if break import print in contin
 ex39:dict = { key : word, [key : word, ...]} 
 	 dict.items():以Tuple的形式返回dict中的内容
 	 dict.get(k,[d]): D[k] if k in D, else d.  d defaults to None.
-	 
 
+ex40:python中的类初始化函数 def __init__(self) 在init两边各有两个_而不是一个
 	 
+ex41:strip(rm):删除字符串开头和结尾中的rm序列
+	random.shuffle():随机进行重新排序
+	random.sample():对括号中的list进行随机取样
+	 
+ex45:开始制作一个有趣的游戏，并逐步扩展到webapp -> Django
