@@ -57,3 +57,9 @@ ex37:关键字：and from not while elif or else if break import print in contin
 	字符串格式化：%d %i %o %u %x %X %e %E %f %F %g %G %r %s %%
 	操作符：+ - * ** / // % < > <= >= == != <> () [] {} @ , : . = ; += -= *= /= //= %= **=
 
+ex39:dict = { key : word, [key : word, ...]} 
+	 dict.items():以Tuple的形式返回dict中的内容
+	 dict.get(k,[d]): D[k] if k in D, else d.  d defaults to None.
+	 
+
+	 
